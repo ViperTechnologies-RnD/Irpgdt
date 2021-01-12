@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{87:function(n){n.exports=JSON.parse('{"allTagsPath":"/irpgdt/blog/tags","slug":"documentation","name":"documentation","count":1,"permalink":"/irpgdt/blog/tags/documentation"}')}}]);
