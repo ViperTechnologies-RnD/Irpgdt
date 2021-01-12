@@ -2,12 +2,12 @@ module.exports = {
   title: 'Iranian Payment Gateway',
   tagline: 'DEV-DOC Translation',
   url: 'https://ViperTechnologies-RnD.github.io',
-  baseUrl: '/ipgddt',
+  baseUrl: '/irpgdt/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'ViperTechnologies-RnD', // Usually your GitHub org/user name.
-  projectName: 'ipgddt', // Usually your repo name.
+  projectName: 'irpgdt', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'IPG Doc Translation',
@@ -24,7 +24,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ViperTechnologies-RnD',
           label: 'GitHub',
           position: 'right',
         },
