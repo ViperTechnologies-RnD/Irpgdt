@@ -320,9 +320,9 @@ HTTP/1.1 422 Error
 
 include_once("functions.php");
 $api = 'YOUR-API-KEY';
-$amount = "مبلغ به ریال";
-$factorNumber = "شماره فاکتور";
-$description = "توضیحات";
+$amount = "amount in Iranian Rial";
+$factorNumber = "Invoice Number";
+$description = "Description";
 $redirect = 'http://YOUR-CALLBACK-URL';
 $result = send($api, $amount, $redirect, $factorNumber, $description);
 $result = json_decode($result);
@@ -343,13 +343,13 @@ $token = $_GET['token'];
 $result = json_decode(verify($api,$token));
 if(isset($result->status)){
 	if($result->status == 'success'){
-		echo "<h1>تراکنش با موفقیت انجام شد</h1>";
+		echo "<h1>transaction has been successfully completed </h1>";
 	} else {
-		echo "<h1>تراکنش با خطا مواجه شد</h1>";
+		echo "<h1>transaction has failed due to error</h1>";
 	}
 } else {
 	if($_GET['status'] == 0){
-		echo "<h1>تراکنش با خطا مواجه شد</h1>";
+		echo "<h1>transaction has failed due to error</h1>";
 	}
 }
 ```
@@ -393,3 +393,11 @@ function curl_post($url, $params)
 	return $res;
 }
 ```
+
+:::note
+
+Dear Implementation Engineer, all of the response codes and string in the example codes provided here are translated to English to make your life easier.
+Please return the favor to end users by using the Original "PERSIAN/FARSI" values when you have successfully implemented this.
+Thanks.
+
+:::

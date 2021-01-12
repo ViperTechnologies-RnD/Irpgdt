@@ -72,12 +72,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ViperTechnologies-RnD',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Dev Doc PG 5pot, Inc. Built with Docusaurus by Sobhan Bahrmai.`,
     },
   },
   presets: [
