@@ -2,7 +2,7 @@ module.exports = {
   title: 'Iranian Payment Gateway',
   tagline: 'DEV-DOC Translation',
   url: 'https://ViperTechnologies-RnD.github.io',
-  baseUrl: '/irpgdt/',
+  baseUrl: '/Irpgdt/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
