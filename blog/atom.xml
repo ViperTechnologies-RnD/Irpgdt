@@ -10,7 +10,7 @@
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
-        <link href="https://ViperTechnologies-RnD.github.io/irpgdt/blog/welcome"/>
+        <link href="https://ViperTechnologies-RnD.github.io/Irpgdt/blog/welcome"/>
         <updated>2019-05-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Blog features are powered by the blog plugin. Simply add files to the blog directory. It supports tags as well!]]></summary>
     </entry>
